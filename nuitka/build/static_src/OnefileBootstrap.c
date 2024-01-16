@@ -43,6 +43,7 @@
 // Note: Keep this separate line, must be included before other Windows headers.
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
+#include <shellapi.h>
 #endif
 
 #include <assert.h>
