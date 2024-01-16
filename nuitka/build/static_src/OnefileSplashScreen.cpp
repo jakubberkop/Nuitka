@@ -21,6 +21,7 @@
 #error "No support for splash screens with MinGW64 yet, only works with MSVC. Somebody please make it portable."
 #endif
 
+#define WIN32_LEAN_AND_MEAN
 #include <shlwapi.h>
 #include <wincodec.h>
 #include <windows.h>

@@ -41,6 +41,7 @@
 
 #if defined(_WIN32)
 // Note: Keep this separate line, must be included before other Windows headers.
+#define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #endif
 
